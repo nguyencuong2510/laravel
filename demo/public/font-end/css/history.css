@@ -1,0 +1,33 @@
+.sticker_container {
+	margin: 30px 120px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.calendar_sticker {
+	margin: 10px 20px;
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #000;
+	-webkit-transform:rotate(-6deg);
+	-o-transform:rotate(-6deg);
+	-moz-transform:rotate(-6deg);
+}
+.calendar_sticker:nth-child(2n) {
+	-webkit-transform:rotate(5deg);
+	-o-transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
+}
+.comment {
+	padding: 5px;
+	width: 100px;
+	height: 70px;
+}
+.weekday {
+	padding: 5px;
+	width: 100px;
+	height: 30px;
+	background-color: rgba(288, 18, 18, 0.75);
+	border-bottom: 1px solid #000;
+}
